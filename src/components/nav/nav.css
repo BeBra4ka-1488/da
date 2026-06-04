@@ -1,0 +1,30 @@
+nav{
+width: 80%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+.navigation{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p:hover{
+    color:#029ec9;
+}
+.navigation button{
+    background: #00c8ff;
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+nav img{
+    width: 35px;
+    height: 35px;
+}

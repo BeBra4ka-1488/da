@@ -1,0 +1,57 @@
+header{
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+.more{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.more img{
+    width: 50px;
+    height: 50px;
+}
+.info{
+    width: 50%;
+
+}
+.information p{
+    width: 100%;
+    color: #00c8ff;
+}
+.information h1{
+    width: 100%;
+}
+.information h2{
+    width: 100%;
+    color: gray;
+}
+.information h3{
+    width: 100%;
+    color: gray;
+}
+.name{
+    color: #00c8ff;
+}
+.Contact{
+        background: #00c8ff;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    
+}
