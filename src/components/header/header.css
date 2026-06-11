@@ -1,9 +1,9 @@
 header{
-    width: 80%;
+    width: 60%;
     height: 1000px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .information{
     width: 50%;
@@ -11,7 +11,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: start;
+    margin: 10px;
 }
 .more{
     width: 100%;
@@ -26,7 +26,12 @@ header{
 }
 .info{
     width: 50%;
-
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .information p{
     width: 100%;
@@ -54,4 +59,58 @@ header{
     height: 35px;
     text-align: center;
     
+}
+.keyword{
+    color: red;
+
+}
+.variable{
+    color: blue;
+}
+.purple{
+    color: purple;
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.green{
+    color: green;
+    margin-top:10px ;
+    margin-bottom:10px ;
+}
+.da{
+    color: gray;
+}
+.orange{
+    color: orange;
+}
+.red{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+}
+.yellow{
+       width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: yellow; 
+}
+.green-block{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: green;
+}
+.colors{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.more-info{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
