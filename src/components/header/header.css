@@ -35,24 +35,25 @@ header{
 }
 .information p{
     width: 100%;
-    color: #00c8ff;
+    color: #3b82f6;
 }
 .information h1{
     width: 100%;
 }
 .information h2{
     width: 100%;
-    color: gray;
+    color: #93a2b8;
 }
 .information h3{
     width: 100%;
-    color: gray;
+    color: #93a2b8;
 }
 .name{
-    color: #00c8ff;
+   color: #3b82f6;
 }
 .Contact{
-        background: #00c8ff;
+    background:#3b82f6;
+    color: #0f172a;
     border: none;
     border-radius: 8px;
     width: 100px;
@@ -61,45 +62,43 @@ header{
     
 }
 .keyword{
-    color: red;
+   color: rgb(239, 68, 68);
 
 }
 .variable{
-    color: blue;
+    color: rgb(37, 99, 235);
 }
 .purple{
-    color: purple;
+    color: rgb(147, 51, 234);
     margin-top:5px ;
     margin-bottom:5px ;
 }
 .green{
-    color: green;
-    margin-top:10px ;
-    margin-bottom:10px ;
+    color: rgb(22, 163, 74);
 }
 .da{
     color: gray;
 }
 .orange{
-    color: orange;
+    color:rgb(249, 115, 22);
 }
 .red{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: red;
+    background: rgb(219 39 119);
 }
 .yellow{
        width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: yellow; 
+    background: rgb(234, 179, 8); 
 }
 .green-block{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: green;
+    background: rgb(34, 197, 94);
 }
 .colors{
     width: 25%;
@@ -114,3 +113,5 @@ header{
     justify-content: space-between;
 
 }
+.code{
+    height: 150px;}

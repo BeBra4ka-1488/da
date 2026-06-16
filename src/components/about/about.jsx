@@ -4,7 +4,7 @@ import education from "../../../public/img/education.png"
 import experience from "../../../public/img/experience.png"
 export default function About(){
     return(
-        <div className="about">
+        <div className="about" id="About">
             <h1 className="h1_about">About Me</h1>
             <div className="bio">
                 

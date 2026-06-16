@@ -3,9 +3,9 @@ import GitHub from "../../../public/img/GitHub.png"
 export default function Header() {
     return (
         
-        <header>
+        <header id="Header">
             <div className="information">
-                <p>Hello! I'm</p>
+                <p className="hello">Hello! I'm</p>
                 <h1>Markov <span className="name">Vladimir</span></h1>
                 <h2>front-end Developer</h2>
                 <h3>Building elegant solutions to complex problems with modern technologies.
@@ -38,10 +38,13 @@ export default function Header() {
   <span className="orange">{"{"} </span>
 
   {"\n  "}
+  <br />
   <span className="purple">name</span><span className="da">:</span>{" "}
   <span className="green">'Markov Vladimir'</span><span className="da">,</span>
+  <br />
   {"\n  "}
   <span className="purple">skills</span><span className="da">:</span><span className="orange">{"["}</span> <span className="green">'React'</span><span className="da">,</span> <span className="green">'HTML/CSS'</span><span className="da">,</span> <span className="green">'JavaScript'</span> <span className="orange">{"]"}</span><span className="da">,</span>
+  <br />
   {"\n  "}
   <span className="purple">focuses <span className="da">:</span></span><span className="orange">{"["}</span><span className="green">front-end</span><span className="orange">{"]"}</span>
   {"\n  "}
